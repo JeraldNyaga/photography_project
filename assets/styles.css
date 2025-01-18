@@ -56,12 +56,12 @@ h1{
 
 img{
     object-fit: cover;
-    float: left;
     border-radius: 35px;
 }
 
 
 #intro_img{
+    float: left;
     width: 360px;
     height: 353px;
 }
@@ -71,4 +71,28 @@ img{
 .intro_message{
     clear: left;
     float: right;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DDA15E;
+}
+
+footer img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.copyright_logo{
+    display: flex;
+    align-items: center;
 }
