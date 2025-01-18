@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #DDA15E;
+}
+
+li a{
+    font-size: 30px;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FEFAE0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#contact_me{
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #AFEEEE;  
+    color: #283618;
+    border-radius: 20px; 
+    padding: 12px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 10px;
+    padding: 20px;
+
+}
+
+h1{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FEFAE0;
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+}
+
+#Home{
+    background-color: #606C38;
+    overflow: hidden;
+}
+
+img{
+    object-fit: cover;
+    float: left;
+    border-radius: 35px;
+}
+
+
+#intro_img{
+    width: 360px;
+    height: 353px;
+}
+#my_img{
+    float: right;
+}
+.intro_message{
+    clear: left;
+    float: right;
+}
