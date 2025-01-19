@@ -20,6 +20,12 @@ The results achieved were perfect.
 ## Contact Information
 Incase of any challenge: reach me through email: [Jerald Nyaga](jeraldnyaga15@gmail.com).
 
+## FIGMA Design
+The figma design for the website is found here: [Figma Design](https://www.figma.com/design/ft9baq4Lxxr4edqsPp64on/Photography-Website?node-id=0-1&t=dS71pOvD2RPcjw94-1)
+
+## Github pages link found here
+The github pages link is found here in: [Github pages](https://jeraldnyaga.github.io/photography_project/)
+
 ### License
 MIT License
 
