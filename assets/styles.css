@@ -6,6 +6,13 @@
 header{
     background-color: #DDA15E;
 }
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+figcaption{
+    font-family: "Lobster two", serif;
+}
 
 li a{
     font-size: 30px;
@@ -17,7 +24,7 @@ li a{
     padding: 5px;
 }
 
-#contact_me{
+#contact_me, .intro_message a{
     font-family: "Lobster", serif;
     font-weight: 400;
     font-style: normal;
@@ -25,6 +32,10 @@ li a{
     color: #283618;
     border-radius: 20px; 
     padding: 12px;
+}
+
+.intro_message a{
+    text-decoration: none;
 }
 
 nav ul{
@@ -49,9 +60,22 @@ h1{
     font-size: 45px;
 }
 
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #DDA15E;
+    font-size: 30px;
+}
+
 #Home{
     background-color: #606C38;
     overflow: hidden;
+}
+
+#Home figcaption{
+    clear: left;
+    text-align: center;
+    width: 70%;
 }
 
 img{
@@ -59,18 +83,35 @@ img{
     border-radius: 35px;
 }
 
-
 #intro_img{
     float: left;
     width: 360px;
     height: 353px;
+    margin-left: 25%;
+    margin-right: 10px;
+}
+
+#intro_earth{
+    padding-top: 90px;
+    width: 80%;
+    font-size: 25px;
+}
+
+#intro_button{
+    margin: 0 40%;
 }
 #my_img{
     float: right;
+    height: 200px;
 }
 .intro_message{
     clear: left;
     float: right;
+    margin-top: 80px;
+}
+
+.intro_message p {
+    margin-bottom: 20px;
 }
 
 footer{
@@ -95,4 +136,42 @@ footer ul {
 .copyright_logo{
     display: flex;
     align-items: center;
+}
+
+.rows{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.rows img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    float: left;
+    border: 3px solid #AFEEEE;
+    margin: 0 5px;
+}
+
+.rows figcaption{
+    clear: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.rows figure{
+    width: 450px;
+    margin: 10px;
+}
+.rows p{
+    padding-top: 50px;
+}
+
+.section_style{
+    margin: 5px 0;
+}
+
+.photo_section{
+    background-color: #FEFAE0;
 }
