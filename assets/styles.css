@@ -12,6 +12,7 @@ p{
 
 figcaption{
     font-family: "Lobster two", serif;
+    font-size: 20px;
 }
 
 li a{
@@ -99,20 +100,23 @@ img{
 }
 
 #intro_button{
-    margin: 0 40%;
+    margin-left: 60%;
 }
+
 #my_img{
     float: right;
     height: 200px;
 }
 .intro_message{
     clear: left;
-    float: right;
     margin-top: 80px;
 }
 
 .intro_message p {
+    margin-left: 25%;
     margin-bottom: 20px;
+    width: 60%;
+    text-align: end;
 }
 
 footer{
@@ -146,8 +150,8 @@ footer ul {
 }
 
 .rows img{
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 250px;
     padding: 5px;
     float: left;
     border: 3px solid #AFEEEE;
@@ -181,4 +185,54 @@ footer ul {
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: orange;
+}
+
+.copyright_logo ul{
+    margin: 0;
+    padding: 0;
+}
+.section_form_style{
+    display: flex;
+    justify-content: center;
+}
+
+.card_contact{
+    height: 450px;
+    width: 350px;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+
+.card_contact h2{
+    color: #283618;
+    text-align: center;
+    padding: 10px;
+    font-family: "Lobster", serif;
+}
+
+.info_card{
+    background-color: #DDA15E;
+    color: #FEFAE0;
+}
+
+.form_card{
+    background-color: #AFEEEE;
+    align-items: center;
+}
+
+.info_card p{
+    margin: 20% 5px;
+}
+
+.form_card form{
+    margin: 10px;
+}
+
+.form_card label{
+    font-family: "Lobster", serif;
+    font-size: 20px;
+}
+
+.submit_button{
+    margin: 4px 40%;
 }
