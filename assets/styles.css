@@ -42,6 +42,7 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    margin-bottom: 0;
 }
 
 nav ul li{
@@ -92,8 +93,8 @@ img{
 }
 
 #intro_earth{
-    padding-top: 90px;
-    width: 80%;
+    padding-top: 40px;
+    width: 85%;
     font-size: 25px;
 }
 
@@ -168,14 +169,16 @@ footer ul {
     padding-top: 50px;
 }
 
-.section_style{
-    margin: 5px 0;
-}
-
 .photo_section{
     background-color: #FEFAE0;
 }
 
 .section_carousel{
     background-color: #FEFAE0;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: orange;
 }
